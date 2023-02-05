@@ -385,6 +385,10 @@ footer {
         margin-right: 5px;
     }
 
+    .header {
+        width: 100%;
+    }
+    
     .navigation {
         display: flex;
         flex-direction: column;
@@ -396,7 +400,7 @@ footer {
     }
 
     .imac {
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 5px;
         width: 100px;
     }
@@ -462,6 +466,7 @@ footer {
     .katieFacts {
         font-size: 14px;
         margin-left: 5px;
+        padding: 0;
     }
 
 
@@ -471,7 +476,7 @@ footer {
     }
 
     li.factors {
-        width: 95%;
+        width: 90%;
         margin-left: 5px;
         margin-right: 5px;
         margin-top: 10px;
@@ -481,6 +486,12 @@ footer {
     .frisbee-container {
         dislay: flex;
         flex-direction: column;
+    }
+    
+    .youtube {
+        min-width: 320px;
+        min-height: 180px;
+        
     }
     
     .fris {
@@ -495,7 +506,9 @@ footer {
     }
 
     footer {
-        height: 10%;
+        height: 12%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
 
@@ -503,8 +516,8 @@ footer {
 
 @media screen and (max-width: 1000px) {
     .youtube {
-        min-width: 356px;
-        min-height: 200px;
-        widith: 90%;
+        min-width: 380px;
+        min-height: 215px;
+        margin-bottom: 20px;
     }
 }
