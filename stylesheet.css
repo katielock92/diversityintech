@@ -387,6 +387,8 @@ footer {
 
     .header {
         width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     
     .navigation {
@@ -395,13 +397,14 @@ footer {
         margin-top: 40px;
         margin-bottom: auto;
         margin-right: 0;
-        width: 40%;
+        width: 50%;
         position: relative;
     }
 
     .imac {
         margin-top: 20px;
-        margin-left: 5px;
+        margin-left: 0;
+        margin-right: auto;
         width: 100px;
     }
     
@@ -465,8 +468,7 @@ footer {
 
     .katieFacts {
         font-size: 14px;
-        margin-left: 5px;
-        padding: 0;
+        padding: 5px;
     }
 
 
@@ -476,9 +478,9 @@ footer {
     }
 
     li.factors {
-        width: 90%;
-        margin-left: 5px;
-        margin-right: 5px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -507,14 +509,12 @@ footer {
 
     footer {
         height: 12%;
-        margin-left: 5px;
-        margin-right: 5px;
     }
 
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 760px) {
     .youtube {
         min-width: 380px;
         min-height: 215px;
