@@ -231,6 +231,12 @@ li.factors:hover {
     border-style: solid;
 }
 
+.frisbee-container {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .fris {
     flex-direction: column;
     display: inline-block;
@@ -390,6 +396,8 @@ footer {
     }
 
     .imac {
+        margin-top: 40px;
+        margin-left: 5px;
         width: 100px;
     }
     
@@ -429,7 +437,7 @@ footer {
     }
 
     main {
-        margin-bottom: 20%;
+        margin-bottom: 25%;
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -448,10 +456,12 @@ footer {
 
     .tinder {
         min-width: 120px;
+        width: 25%;
     }
 
     .katieFacts {
         font-size: 14px;
+        margin-left: 5px;
     }
 
 
@@ -461,13 +471,18 @@ footer {
     }
 
     li.factors {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        width: 95%;
+        margin-left: 5px;
+        margin-right: 5px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
+    .frisbee-container {
+        dislay: flex;
+        flex-direction: column;
+    }
+    
     .fris {
         margin-left: auto;
         display: flex;
@@ -479,7 +494,7 @@ footer {
     }
 
     footer {
-        height: 15%;
+        height: 10%;
     }
 
 
