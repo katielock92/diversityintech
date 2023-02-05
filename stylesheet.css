@@ -96,7 +96,7 @@ main {
     margin-top: 2.5%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 2.5%;
 }
 
 .flex-container {
@@ -380,7 +380,7 @@ footer {
     html {
         font-size: 12px;
     }
-    body {
+    .main {
         margin-left: 5px;
         margin-right: 5px;
     }
