@@ -419,10 +419,13 @@ footer {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+        font-size: 10px;
     }
 
     main {
         margin-bottom: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     h1 {
@@ -430,11 +433,11 @@ footer {
     }
 
     .content {
-        min-width: 200px;
+        min-width: 180px;
     }
 
     .katie {
-        min-width: 150px;
+        min-width: 130px;
     }
 
     .tinder {
@@ -468,7 +471,7 @@ footer {
     }
 
     footer {
-        height: 12%;
+        height: 15%;
     }
 
 
