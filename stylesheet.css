@@ -375,6 +375,8 @@ footer {
 @media screen and (max-width: 760px) {
     html {
         font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .navigation {
@@ -387,6 +389,10 @@ footer {
         position: relative;
     }
 
+    .imac {
+        width: 100px;
+    }
+    
     .menuButton {
         display: flex;
     }
@@ -424,8 +430,8 @@ footer {
 
     main {
         margin-bottom: 20%;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     h1 {
@@ -464,7 +470,8 @@ footer {
 
     .fris {
         margin-left: auto;
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .highlights {
@@ -482,5 +489,6 @@ footer {
     .youtube {
         min-width: 356px;
         min-height: 200px;
+        widith: 90%;
     }
 }
