@@ -365,8 +365,6 @@ footer {
     font-style: italic;
     padding: 5px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
     margin: 0;
     text-align: center;
 }
