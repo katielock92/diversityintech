@@ -365,8 +365,7 @@ footer {
     font-style: italic;
     padding: 5px;
     width: 100%;
-    bottom: 0;
-    left: 0;
+    margin: 0;
     text-align: center;
 }
 
@@ -380,10 +379,7 @@ footer {
     html {
         font-size: 12px;
     }
-    .main {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
+   
     .header {
         width: 100%;
         margin-left: 5px;
@@ -443,7 +439,6 @@ footer {
     }
 
     main {
-        margin-bottom: 25%;
         margin-left: 5px;
         margin-right: 5px;
     }
