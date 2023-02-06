@@ -386,8 +386,8 @@ footer {
    
     .header {
         width: 100%;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .navigation {
@@ -443,8 +443,8 @@ footer {
     }
 
     main {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     h1 {
@@ -510,6 +510,9 @@ footer {
         font-size: 12px;
     }
     
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
 
 
 }
