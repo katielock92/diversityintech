@@ -384,6 +384,11 @@ footer {
         font-size: 12px;
     }
    
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .header {
         width: 100%;
         margin-left: 10px;
@@ -395,7 +400,7 @@ footer {
         flex-direction: column;
         margin-top: 40px;
         margin-bottom: auto;
-        margin-right: 0;
+        margin-right: 5px;
         width: 50%;
         position: relative;
     }
@@ -445,6 +450,7 @@ footer {
     main {
         margin-left: 10px;
         margin-right: 10px;
+        flex-grow: 1;
     }
 
     h1 {
