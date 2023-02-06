@@ -1,7 +1,7 @@
 html {
     background-image: linear-gradient(to bottom right, #FFDDDE, #FFECE2);
     display: flex;
-    font-family: 'Barlow';
+    font-family: 'Barlow', san-serif;
     color: #BF4C41;
     font-size: 16px;
 }
@@ -88,6 +88,8 @@ body {
     min-width: 100vw;
     margin: 0;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 main a{
@@ -104,6 +106,7 @@ main {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2.5%;
+    flex-grow: 1;
 }
 
 .flex-container {
@@ -123,7 +126,7 @@ main {
 
 .katie {
     padding-left: 20px;
-    width: 80%;
+    width: 75%;
     min-width: 200px;
 }
 
@@ -390,11 +393,6 @@ footer {
     html {
         font-size: 12px;
     }
-   
-    body {
-        display: flex;
-        flex-direction: column;
-    }
     
     .header {
         width: 100%;
@@ -457,7 +455,6 @@ footer {
     main {
         margin-left: 20px;
         margin-right: 20px;
-        flex-grow: 1;
     }
 
     h1 {
@@ -505,7 +502,7 @@ footer {
         min-width: 320px;
         min-height: 180px;
         margin-bottom: 20px;
-        
+   
     }
     
     .fris {
