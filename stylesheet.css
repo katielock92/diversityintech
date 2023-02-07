@@ -215,6 +215,7 @@ li.factors:hover {
 
 .xerocon {
     width: 80%;
+    max-width: 1000px;
     border-radius: 20px;
     margin: auto;
     padding: 10px;
