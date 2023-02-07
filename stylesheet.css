@@ -267,6 +267,7 @@ li.factors:hover {
 
 .slideshow-container {
     width: 80%;
+    max-width: 1000px;
     position: relative;
     margin-top: 30px;
     display: block;
